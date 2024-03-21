@@ -23,7 +23,7 @@ var localArticles = map[string][2]string{
 		"From: Sarah's Radio show, transcript summary version, 10/9/2224 SST\n" +
 			"Hey there all you 10 or so out there listening to me on the void today. I want to talk about an alternative mining source. \n" +
 			"We mine rocks, dusty rocks and dust all day every day, and that has done us well, but there is another resource \n" +
-			"that we have seen an increase in price, to most of our dismays... WATER! by ton water has increased from 104.77 to 160.01 YenDollars \n" +
+			"that we have seen an increase in price, to most of our dismays... WATER! By ton water has increased from 104.77 to 160.01 YenDollars \n" +
 			"in the past solar month! That is a massive increase, but we all know that especially when the carriers come by they try to sell us \n" +
 			"it at an even higher price! Well, I have a solution for you, our sector has a varying amount of comets or icy asteroids, around 400-500 \n" +
 			"at any given time. I started mining these resources and I have never been happier! I am swindling the carriers now! I just sold a couple tons of \n" +
