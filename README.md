@@ -16,7 +16,7 @@ git clone https://github.com/cwdatlas/SolarSystemNews-Go-Gui
 
 Move into the newly created directory
 ```shell script
-cd SolarSystemNews/src
+cd SolarSystemNews-Go-Gui/src
 ```
 
 Run the program by typing
