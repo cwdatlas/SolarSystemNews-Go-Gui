@@ -1,28 +1,26 @@
-package main
+package testCode
 
 import (
-	"image/color"
-	"log"
-	"os"
-
 	"gioui.org/app"
 	"gioui.org/op"
 	"gioui.org/text"
 	"gioui.org/widget/material"
+	"image/color"
 )
 
-func main() {
-	go func() {
-		w := app.NewWindow()
-		err := run(w)
-		if err != nil {
-			log.Fatal(err)
-		}
-		os.Exit(0)
-	}()
-	app.Main()
-}
-
+/*
+	func main() {
+		go func() {
+			w := app.NewWindow()
+			err := run(w)
+			if err != nil {
+				log.Fatal(err)
+			}
+			os.Exit(0)
+		}()
+		app.Main()
+	}
+*/
 func run(w *app.Window) error {
 	th := material.NewTheme()
 	var ops op.Ops
@@ -36,7 +34,6 @@ func run(w *app.Window) error {
 
 			// Define an large label with an appropriate text:
 			title := material.H1(th, "Hello, Gio")
-
 			// Change the color of the label.
 			maroon := color.NRGBA{R: 127, G: 0, B: 0, A: 255}
 			title.Color = maroon
