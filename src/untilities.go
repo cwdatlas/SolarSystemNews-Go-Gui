@@ -26,9 +26,24 @@ var buttonMargins = layout.Inset{
 // config for rows, used in article button display
 var rows = layout.Flex{Axis: layout.Vertical, Spacing: layout.SpaceEvenly}
 
+var intro = "You are one of the many tens of thousands of lone Asteroid miners out in a distant section\n" +
+	"of the belt. You grew up on the Martian colonies, but you didn't like the couped up life of the domed habitats.\n" +
+	"You wanted to be an explorer like the people who founded your home colony, so you decided to use your savings\n" +
+	"and move out into the belt where you can explore and profit heavily from doing what you love...\n" +
+	"At least that is what you thought, before you were again couped up in a little metal can with a bunch of\n" +
+	"'Space Bumpkins' on the coms and local news channel. Your ship is an old throwaway Hanwa with the internet ingress\n" +
+	"point ripped out by its previous owners to make an extra YenDollar. You had to switch to the emergency minimum connection ingress.\n" +
+	"You are now stuck bored between farming missions.\n" +
+	"You recently bought a replacement of the emergency ingress system, so now you have more than a trickle of bandwidth!\n" +
+	"In between your farming missions you decide to pull together a program for AP-089, your local system, to view everyone's\n" +
+	"news more easily. So you boot up your new program for the first time and see if it works..."
+
 // return margin config
 func getButtonMargins() layout.Inset {
 	return buttonMargins
+}
+func dispalyStartingInfoWindow() {
+	createInfoWindow(intro, "background")
 }
 
 // return Rigid that displays a button and manages its event
