@@ -80,7 +80,7 @@ func createInfoWindow(article string, name string) {
 			// set title to name
 			app.Title(name),
 			// set size
-			app.Size(unit.Dp(1350), unit.Dp(200)),
+			app.Size(unit.Dp(1350), unit.Dp(400)),
 		)
 		// if error stop window, close it
 		if err := infoPanelLoop(w, article); err != nil {
