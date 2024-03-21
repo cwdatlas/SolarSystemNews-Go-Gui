@@ -53,7 +53,9 @@ func draw(w *app.Window) error {
 		btn := locBtns[k]
 		locArtBtns[k] = getButtonClickable(&btn, getLocalNews()[k][1], getLocalNews()[k][0])
 	}
-
+	// To give the user a sense of the world, I have included a starting info panel for the users past
+	// This uses the article window generator to quickly spin up a info panel
+	dispalyStartingInfoWindow()
 	// start the loop that refreshes the page
 	for {
 		// detect what type of event
