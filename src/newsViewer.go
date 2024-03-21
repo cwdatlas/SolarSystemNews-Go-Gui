@@ -12,7 +12,7 @@ func main() {
 		// create new window
 		w := app.NewWindow(
 			app.Title("Passing Comet"),
-			app.Size(unit.Dp(600), unit.Dp(600)),
+			app.Size(unit.Dp(600), unit.Dp(490)),
 		)
 		if err := draw(w); err != nil {
 			log.Fatal(err)
