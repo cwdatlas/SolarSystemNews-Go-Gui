@@ -1,20 +1,22 @@
-### Solar System Article Viewer
+### Solar System Article Viewer GUI Version
 This little Go program provides a user with a handful of fictional
-articles. There is a small story apart of the game. 
-The game includes coloring which shows on specific software like GoLand,
-so you might see strange strings at the start of lines.
+articles. There is a small story apart in the game. 
+The gui is built with the Gio framework. 
+Exiting out of program is primarily done by closing he window
+at the top right or left of your window. There is not a
+close button.
 
 ### Installation
 You will need Go to run this program
 
 close the repository into a project directory
 ```shell script
-git clone https://github.com/cwdatlas/SolarSystemNews
+git clone https://github.com/cwdatlas/SolarSystemNews-Go-Gui
 ```
 
 Move into the newly created directory
 ```shell script
-cd SolarSystemNews
+cd SolarSystemNews/src
 ```
 
 Run the program by typing
